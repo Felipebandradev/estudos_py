@@ -113,7 +113,7 @@ Bibliotecas de programação são recursos que ajudam a escrever o código
 - > Tkinter ( interface )
 
   ```py
-  # importando a biblioteca e apelidandando (as)
+  # importando a biblioteca e apelidando (as)
   import tkinter as tk
 
   # criação da janela
