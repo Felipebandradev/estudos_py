@@ -33,7 +33,7 @@ def multiplicar():
 
     
 
-# crianção da janela
+# criação da janela
 janela = tk.Tk()
 
 #especificar o tamanho da janela definida em pixel

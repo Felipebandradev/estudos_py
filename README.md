@@ -116,7 +116,7 @@ Bibliotecas de programação são recursos que ajudam a escrever o código
   # importando a biblioteca e apelidandando (as)
   import tkinter as tk
 
-  # crianção da janela
+  # criação da janela
   janela = tk.Tk()
 
   #especificar o tamanho da janela definida em pixel
@@ -141,7 +141,7 @@ Bibliotecas de programação são recursos que ajudam a escrever o código
   total.config(text=f'Alterando o texto')
 
 
-  # loop principal da interface grafica rodar em loop
+  # loop principal da interface gráfica rodar em loop
   janela.mainloop()
 
 
