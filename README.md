@@ -14,12 +14,12 @@ Em python tudo precisa ser bem identado para evitar erros e deixar mais legivel
 
 ## Código
 
-> criação de variveis e comentários
+> criação de varíaveis e comentários
 
 ```py
 # (#)-> utilizado para documentar/anotar coisas no código
 
-# Declarando uma variavel
+# Declarando uma varíavel
 num = 10
 ```
 
@@ -111,3 +111,38 @@ for i in range(n - 1):
 Bibliotecas de programação são recursos que ajudam a escrever o código
 
 - > Tkinter ( interface )
+
+  ```py
+  # importando a biblioteca e apelidandando (as)
+  import tkinter as tk
+
+  # crianção da janela
+  janela = tk.Tk()
+
+  #especificar o tamanho da janela definida em pixel
+  janela.geometry('400x400')
+
+  # caixa de entrada de dados 01
+  campo1 = tk.Entry (janela)
+
+  # exibir na janela
+  campo1.pack(padx=10, pady=20)
+
+  #Botão de ação
+  botao = tk.Button(janela, text='+', command=soma )
+
+  # Definindo a localização/posicionamento dentro da janela em px
+  botao.place(x=120, y=120)
+
+  #vinculando a variavel numero com entry
+  num1 = float(campo1.get())
+
+  # Alterando os parâmetros de uma função
+  total.config(text=f'Alterando o texto')
+
+
+  # loop principal da interface grafica rodar em loop
+  janela.mainloop()
+
+
+  ```
